@@ -17,5 +17,6 @@ Research Focus
 ------
 ## 🗞️ News & Updates
 
+- **OCT 2025** - New Paper accepted to **IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems**
 - **DEC 2024** - New Paper accepted to **Journal of Hardware and Systems Security** [Read PDF](https://robi-paul.github.io/files/adjoining_gate_jhass.pdf)
 - **NOV 2024** – New Paper accepted to **HOST2025** [Read PDF](https://robi-paul.github.io/files/michscan_host.pdf)
