@@ -307,7 +307,7 @@ body:has(.full-news-page) .page__title {
       <article class="full-news-item">
 
         <div class="full-news-date">
-          OCT 2026
+          27 OCT 2026
         </div>
 
         <img
