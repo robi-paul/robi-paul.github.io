@@ -345,7 +345,7 @@ body:has(.full-news-page) .page__title {
         </div>
 
         <img
-          src="{{ '/images/host2025.png' | relative_url }}"
+          src="{{ '/images/Tifs.png' | relative_url }}"
           alt="IEEE TIFS announcement placeholder"
           class="full-news-image"
           loading="lazy"
