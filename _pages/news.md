@@ -342,7 +342,7 @@ body:has(.full-news-page) .page__title {
       <article class="full-news-item">
 
         <div class="full-news-date">
-          SEP 2026
+          6 SEP 2026
         </div>
 
         <img
@@ -359,10 +359,13 @@ body:has(.full-news-page) .page__title {
           </h2>
 
           <p class="full-news-description">
-            Our paper <strong>[Insert Paper Title]</strong>
+            Our paper <strong>Physical Reservoir Computing with Electric Double Layer Transistors for Anomaly Detection using Power Analysis</strong>
             has been accepted to
             IEEE Transactions on Computer-Aided Design
             of Integrated Circuits and Systems.
+            <a href="https://robi-paul.github.io/files/RadScan.pdf">
+              Read Paper
+            </a>
           </p>
 
         </div>
