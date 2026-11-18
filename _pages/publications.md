@@ -9,7 +9,7 @@ classes: wide
 <style>
 
 /* =========================================
-   REMOVE SIDEBAR AND THEME WIDTH LIMITS
+   REMOVE SIDEBAR ON PUBLICATIONS PAGE
 ========================================= */
 
 body:has(.full-publications-page) .sidebar {
@@ -22,8 +22,8 @@ body:has(.full-publications-page) .page__inner-wrap,
 body:has(.full-publications-page) .page__content {
   width: 100% !important;
   max-width: none !important;
-  padding: 0 !important;
   margin: 0 !important;
+  padding: 0 !important;
 }
 
 body:has(.full-publications-page) .page {
@@ -35,7 +35,7 @@ body:has(.full-publications-page) .page__title {
 }
 
 /* =========================================
-   MAIN PAGE
+   MAIN PAGE LAYOUT
 ========================================= */
 
 .full-publications-page {
@@ -72,6 +72,7 @@ body:has(.full-publications-page) .page__title {
 
 .pub-hero h1 {
   color: #ffffff !important;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 48px;
   font-weight: 750;
   line-height: 1.2;
@@ -79,7 +80,7 @@ body:has(.full-publications-page) .page__title {
 }
 
 /* =========================================
-   LIGHT PUBLICATIONS AREA
+   LIGHT PUBLICATIONS SECTION
 ========================================= */
 
 .pub-body {
@@ -96,22 +97,22 @@ body:has(.full-publications-page) .page__title {
 ========================================= */
 
 .pub-year-group {
-  margin-bottom: 48px;
+  margin-bottom: 50px;
 }
 
 .pub-year {
-  color: #df6a21;
   font-family: monospace;
+  color: #df6a21;
   font-size: 13px;
   font-weight: 500;
   letter-spacing: 2px;
-  margin: 0 0 4px;
   padding-top: 16px;
+  margin: 0 0 5px;
   border-top: 1px solid #cfd6d0;
 }
 
 /* =========================================
-   PUBLICATION ROW
+   INDIVIDUAL PUBLICATION
 ========================================= */
 
 .pub-item {
@@ -137,8 +138,8 @@ body:has(.full-publications-page) .page__title {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 17px;
   font-weight: 700;
-  color: #17212b;
   line-height: 1.45;
+  color: #17212b;
   margin: 0 0 6px;
 }
 
@@ -157,7 +158,7 @@ body:has(.full-publications-page) .page__title {
   color: #17212b;
 }
 
-/* Journal or conference */
+/* Journal / Conference */
 
 .pub-venue {
   font-family: Georgia, "Times New Roman", serif;
@@ -198,7 +199,7 @@ body:has(.full-publications-page) .page__title {
 }
 
 /* =========================================
-   RESPONSIVE DESIGN
+   MOBILE RESPONSIVE
 ========================================= */
 
 @media (max-width: 700px) {
@@ -242,7 +243,7 @@ body:has(.full-publications-page) .page__title {
 <div class="full-publications-page">
 
   <!-- =====================================
-       FULL-WIDTH HEADER
+       FULL WIDTH HEADER
   ====================================== -->
 
   <section class="pub-hero">
@@ -278,7 +279,7 @@ body:has(.full-publications-page) .page__title {
         <h2 class="pub-year">2026</h2>
 
 
-        <!-- SBLLocking -->
+        <!-- SBLLocking - ACM JETC -->
 
         <article class="pub-item">
 
@@ -312,12 +313,109 @@ body:has(.full-publications-page) .page__title {
               rel="noopener noreferrer"
             >DOI</a>
 
+            <a
+              href="{{ '/files/SBLLocking.pdf' | relative_url }}"
+              target="_blank"
+              rel="noopener noreferrer"
+            >PDF</a>
+
           </div>
 
         </article>
 
 
-        <!-- DSMLock -->
+        <!-- RadScan - IEEE TCAD -->
+
+        <article class="pub-item">
+
+          <div class="pub-details">
+
+            <h3 class="pub-title">
+              Physical Reservoir Computing with
+              Electric Double Layer Transistors
+              for Anomaly Detection using
+              Power Analysis
+            </h3>
+
+            <p class="pub-authors">
+              <span class="pub-myname">Robi Paul</span>,
+              Nithil Harris Manimaran,
+              Ke Xu,
+              Michael Zuzak
+            </p>
+
+            <p class="pub-venue">
+              IEEE Transactions on Computer-Aided
+              Design of Integrated Circuits and
+              Systems, Early Access, 2026
+            </p>
+
+          </div>
+
+          <div class="pub-links">
+
+            <a
+              href="https://doi.org/10.1109/TCAD.2026.3732602"
+              target="_blank"
+              rel="noopener noreferrer"
+            >DOI</a>
+
+            <a
+              href="{{ '/files/RadScan.pdf' | relative_url }}"
+              target="_blank"
+              rel="noopener noreferrer"
+            >PDF</a>
+
+          </div>
+
+        </article>
+
+
+        <!-- AdvScan - IEEE TIFS -->
+
+        <article class="pub-item">
+
+          <div class="pub-details">
+
+            <h3 class="pub-title">
+              AdvScan: Black-Box Adversarial
+              Example Detection at Runtime
+              Through Power Analysis
+            </h3>
+
+            <p class="pub-authors">
+              <span class="pub-myname">Robi Paul</span>,
+              Michael Zuzak
+            </p>
+
+            <p class="pub-venue">
+              IEEE Transactions on Information
+              Forensics and Security,
+              vol. 21, pp. 2102–2115, 2026
+            </p>
+
+          </div>
+
+          <div class="pub-links">
+
+            <a
+              href="https://doi.org/10.1109/TIFS.2026.3663053"
+              target="_blank"
+              rel="noopener noreferrer"
+            >DOI</a>
+
+            <a
+              href="{{ '/files/AdvScan.pdf' | relative_url }}"
+              target="_blank"
+              rel="noopener noreferrer"
+            >PDF</a>
+
+          </div>
+
+        </article>
+
+
+        <!-- DSMLock - IEEE TCAD -->
 
         <article class="pub-item">
 
@@ -325,8 +423,8 @@ body:has(.full-publications-page) .page__title {
 
             <h3 class="pub-title">
               DSMLock: Low Overhead Logic Locking
-              for System Security With Design
-              Space Modeling
+              for System Security With
+              Design Space Modeling
             </h3>
 
             <p class="pub-authors">
@@ -353,38 +451,16 @@ body:has(.full-publications-page) .page__title {
               rel="noopener noreferrer"
             >DOI</a>
 
+            <a
+              href="{{ '/files/DSMLock.pdf' | relative_url }}"
+              target="_blank"
+              rel="noopener noreferrer"
+            >PDF</a>
+
           </div>
 
         </article>
 
-
-        <!-- RadScan: replace with complete title
-             and authors when available -->
-
-        <article class="pub-item">
-
-          <div class="pub-details">
-
-            <h3 class="pub-title">
-              RadScan
-            </h3>
-
-            <p class="pub-authors">
-              Author details to be added
-            </p>
-
-            <p class="pub-venue">
-              IEEE Transactions on Computer-Aided
-              Design of Integrated Circuits and
-              Systems, accepted 2026
-            </p>
-
-          </div>
-
-          <div class="pub-links">
-          </div>
-
-        </article>
 
       </section>
 
@@ -398,14 +474,14 @@ body:has(.full-publications-page) .page__title {
         <h2 class="pub-year">2025</h2>
 
 
-        <!-- MichScan -->
+        <!-- MichScan - IEEE HOST -->
 
         <article class="pub-item">
 
           <div class="pub-details">
 
             <h3 class="pub-title">
-              MichScan: Black-Box Neural Network
+              Michscan: Black-Box Neural Network
               Integrity Checking at Runtime
               Through Power Analysis
             </h3>
@@ -417,13 +493,19 @@ body:has(.full-publications-page) .page__title {
 
             <p class="pub-venue">
               IEEE International Symposium on
-              Hardware Oriented Security and Trust
-              (HOST), 2025
+              Hardware Oriented Security and
+              Trust (HOST), 2025
             </p>
 
           </div>
 
           <div class="pub-links">
+
+            <a
+              href="https://arxiv.org/abs/2501.10174"
+              target="_blank"
+              rel="noopener noreferrer"
+            >LINK</a>
 
             <a
               href="{{ '/files/MichScan.pdf' | relative_url }}"
@@ -435,8 +517,19 @@ body:has(.full-publications-page) .page__title {
 
         </article>
 
+      </section>
 
-        <!-- Adjoining Gates / JHSS -->
+
+      <!-- =================================
+           YEAR 2024
+      ================================== -->
+
+      <section class="pub-year-group">
+
+        <h2 class="pub-year">2024</h2>
+
+
+        <!-- Adjoining Gate - JHSS -->
 
         <article class="pub-item">
 
@@ -456,7 +549,8 @@ body:has(.full-publications-page) .page__title {
 
             <p class="pub-venue">
               Journal of Hardware and Systems
-              Security, 2025
+              Security, vol. 8,
+              pp. 233–243, 2024
             </p>
 
           </div>
