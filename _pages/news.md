@@ -120,14 +120,9 @@ body:has(.full-news-page) .page__title {
    THREE-COLUMN NEWS LAYOUT
 ========================================= */
 
-/* First column: Date
-   Second column: Image
-   Third column: News content */
-
 .full-news-item {
   display: grid;
-  grid-template-columns:
-    105px 150px minmax(0, 1fr);
+  grid-template-columns: 105px 150px minmax(0, 1fr);
   column-gap: 28px;
   align-items: start;
   border-top: 1px solid #cfd6d0;
@@ -139,6 +134,7 @@ body:has(.full-news-page) .page__title {
 }
 
 /* Date */
+
 .full-news-date {
   color: #788591;
   font-size: 12px;
@@ -149,6 +145,7 @@ body:has(.full-news-page) .page__title {
 }
 
 /* Image */
+
 .full-news-image {
   width: 150px;
   height: 105px;
@@ -160,11 +157,13 @@ body:has(.full-news-page) .page__title {
 }
 
 /* News text container */
+
 .full-news-details {
   min-width: 0;
 }
 
 /* News headline */
+
 .full-news-title {
   font-size: 19px;
   line-height: 1.4;
@@ -174,6 +173,7 @@ body:has(.full-news-page) .page__title {
 }
 
 /* News description */
+
 .full-news-description {
   color: #46515d;
   font-size: 16px;
@@ -183,6 +183,7 @@ body:has(.full-news-page) .page__title {
 }
 
 /* Paper links */
+
 .full-news-description a {
   color: #007e9e;
   text-decoration: underline;
@@ -197,11 +198,11 @@ body:has(.full-news-page) .page__title {
 ========================================= */
 
 /* Tablet */
+
 @media (max-width: 850px) {
 
   .full-news-item {
-    grid-template-columns:
-      85px 120px minmax(0, 1fr);
+    grid-template-columns: 85px 120px minmax(0, 1fr);
     column-gap: 18px;
   }
 
@@ -217,6 +218,7 @@ body:has(.full-news-page) .page__title {
 }
 
 /* Mobile */
+
 @media (max-width: 600px) {
 
   .full-news-hero {
@@ -310,7 +312,7 @@ body:has(.full-news-page) .page__title {
 
         <img
           src="{{ '/images/host2025.png' | relative_url }}"
-          alt="ACM JETC publication announcement"
+          alt="ACM JETC announcement placeholder"
           class="full-news-image"
           loading="lazy"
         >
@@ -344,7 +346,7 @@ body:has(.full-news-page) .page__title {
 
         <img
           src="{{ '/images/host2025.png' | relative_url }}"
-          alt="IEEE TCAD publication announcement"
+          alt="IEEE TCAD announcement placeholder"
           class="full-news-image"
           loading="lazy"
         >
@@ -378,7 +380,7 @@ body:has(.full-news-page) .page__title {
 
         <img
           src="{{ '/images/host2025.png' | relative_url }}"
-          alt="IEEE TCAD publication announcement"
+          alt="IEEE TCAD announcement placeholder"
           class="full-news-image"
           loading="lazy"
         >
@@ -401,46 +403,8 @@ body:has(.full-news-page) .page__title {
 
 
       <!-- =================================
-           DECEMBER 2024 - JHSS
-      ================================== -->
-
-      <article class="full-news-item">
-
-        <div class="full-news-date">
-          DEC 2024
-        </div>
-
-        <img
-          src="{{ '/images/jhass.png' | relative_url }}"
-          alt="Journal of Hardware and Systems Security publication announcement"
-          class="full-news-image"
-          loading="lazy"
-        >
-
-        <div class="full-news-details">
-
-          <h2 class="full-news-title">
-            Paper Accepted to Journal of Hardware
-            and Systems Security
-          </h2>
-
-          <p class="full-news-description">
-            Our research paper has been accepted to
-            the Journal of Hardware and Systems
-            Security.
-
-            <a href="https://robi-paul.github.io/files/adjoining_gate_jhass.pdf">
-              Read Paper
-            </a>
-          </p>
-
-        </div>
-
-      </article>
-
-
-      <!-- =================================
            DECEMBER 2024 - IEEE HOST 2025
+           SECOND FROM BOTTOM
       ================================== -->
 
       <article class="full-news-item">
@@ -469,6 +433,46 @@ body:has(.full-news-page) .page__title {
             (HOST 2025).
 
             <a href="https://robi-paul.github.io/files/MichScan.pdf">
+              Read Paper
+            </a>
+          </p>
+
+        </div>
+
+      </article>
+
+
+      <!-- =================================
+           DECEMBER 2024 - JHSS
+           LAST ENTRY
+      ================================== -->
+
+      <article class="full-news-item">
+
+        <div class="full-news-date">
+          20 Nov 2024
+        </div>
+
+        <img
+          src="{{ '/images/jhass.png' | relative_url }}"
+          alt="JHSS announcement placeholder"
+          class="full-news-image"
+          loading="lazy"
+        >
+
+        <div class="full-news-details">
+
+          <h2 class="full-news-title">
+            Paper Accepted to Journal of Hardware
+            and Systems Security
+          </h2>
+
+          <p class="full-news-description">
+            Our research paper has been accepted to
+            the Journal of Hardware and Systems
+            Security.
+
+            <a href="https://robi-paul.github.io/files/adjoining_gate_jhass.pdf">
               Read Paper
             </a>
           </p>
