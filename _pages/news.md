@@ -311,7 +311,7 @@ body:has(.full-news-page) .page__title {
         </div>
 
         <img
-          src="{{ '/images/host2025.png' | relative_url }}"
+          src="{{ '/images/Jetc.png' | relative_url }}"
           alt="ACM JETC announcement placeholder"
           class="full-news-image"
           loading="lazy"
@@ -324,9 +324,12 @@ body:has(.full-news-page) .page__title {
           </h2>
 
           <p class="full-news-description">
-            Our research paper has been accepted to
+            Our paper <strong>SBLLocking: Localization of Optical Side-Channel Leakage in Logic-Locked Integrated Circuits through Structure-based Learning</strong> has been accepted to
             the ACM Journal on Emerging Technologies
             in Computing Systems.
+            <a href="https://robi-paul.github.io/files/SBLLocking.pdf">
+              Read Paper
+            </a>
           </p>
 
         </div>
