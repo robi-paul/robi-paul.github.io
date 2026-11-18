@@ -392,8 +392,8 @@ body:has(.full-news-page) .page__title {
           </h2>
 
           <p class="full-news-description">
-            A new research paper has been accepted to
-            IEEE Transactions on Computer-Aided Design
+            Our paper <strong>DSMLock: Low Overhead Logic Locking for System Security with Design Space Modeling</strong> has been accepted to
+            the IEEE Transactions on Computer-Aided Design
             of Integrated Circuits and Systems.
           </p>
 
@@ -427,7 +427,7 @@ body:has(.full-news-page) .page__title {
           </h2>
 
           <p class="full-news-description">
-            Our research paper has been accepted to
+            Our paper <strong>Michscan: Black-Box Neural Network Integrity Checking at Runtime Through Power Analysis</strong> has been accepted to
             the IEEE International Symposium on
             Hardware Oriented Security and Trust
             (HOST 2025).
