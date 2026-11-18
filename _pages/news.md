@@ -354,6 +354,14 @@ body:has(.full-news-page) .page__title {
           DEC 2024
         </div>
 
+         <img
+            src="{{ '/images/host2025.png' | relative_url }}"
+            alt="IEEE HOST 2025 Conference and Expo"
+            class="full-news-image"
+            loading="lazy"
+         >
+
+
         <div>
 
           <h2 class="full-news-title">
