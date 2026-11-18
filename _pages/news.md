@@ -375,7 +375,7 @@ body:has(.full-news-page) .page__title {
       <article class="full-news-item">
 
         <div class="full-news-date">
-          OCT 2025
+          11 OCT 2025
         </div>
 
         <img
@@ -395,6 +395,9 @@ body:has(.full-news-page) .page__title {
             Our paper <strong>DSMLock: Low Overhead Logic Locking for System Security with Design Space Modeling</strong> has been accepted to
             the IEEE Transactions on Computer-Aided Design
             of Integrated Circuits and Systems.
+            <a href="https://robi-paul.github.io/files/MichScan.pdf">
+              Read Paper
+            </a>
           </p>
 
         </div>
