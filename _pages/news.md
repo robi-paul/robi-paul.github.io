@@ -1,3 +1,4 @@
+
 ---
 layout: single
 title: ""
@@ -9,7 +10,7 @@ classes: wide
 <style>
 
 /* =========================================
-   REMOVE SIDEBAR ON NEWS PAGE ONLY
+   HIDE SIDEBAR ON NEWS PAGE ONLY
 ========================================= */
 
 body:has(.full-news-page) .sidebar {
@@ -104,7 +105,7 @@ body:has(.full-news-page) .page__title {
 }
 
 /* =========================================
-   LIGHT NEWS CONTENT
+   LIGHT NEWS SECTION
 ========================================= */
 
 .full-news-body {
@@ -117,16 +118,21 @@ body:has(.full-news-page) .page__title {
 }
 
 /* =========================================
-   NEWS ENTRIES
+   THREE-COLUMN NEWS LAYOUT
 ========================================= */
+
+/* First column: Date
+   Second column: Image
+   Third column: News content */
 
 .full-news-item {
   display: grid;
-  grid-template-columns: 105px minmax(0, 1fr);
-  gap: 35px;
+  grid-template-columns:
+    105px 150px minmax(0, 1fr);
+  column-gap: 28px;
+  align-items: start;
   border-top: 1px solid #cfd6d0;
   padding: 28px 0;
-  align-items: start;
 }
 
 .full-news-item:last-child {
@@ -141,6 +147,22 @@ body:has(.full-news-page) .page__title {
   padding-top: 5px;
   font-weight: 500;
   text-transform: uppercase;
+}
+
+/* Image */
+.full-news-image {
+  width: 150px;
+  height: 105px;
+  object-fit: contain;
+  background: #ffffff;
+  border-radius: 3px;
+  display: block;
+  margin: 0;
+}
+
+/* News text container */
+.full-news-details {
+  min-width: 0;
 }
 
 /* News headline */
@@ -172,31 +194,31 @@ body:has(.full-news-page) .page__title {
 }
 
 /* =========================================
-   NEWS ENTRIES WITH IMAGES
+   RESPONSIVE DESIGN
 ========================================= */
 
-.full-news-with-image {
-  display: grid;
-  grid-template-columns: 150px minmax(0, 1fr);
-  gap: 25px;
-  align-items: start;
+/* Tablet */
+@media (max-width: 850px) {
+
+  .full-news-item {
+    grid-template-columns:
+      85px 120px minmax(0, 1fr);
+    column-gap: 18px;
+  }
+
+  .full-news-image {
+    width: 120px;
+    height: 90px;
+  }
+
+  .full-news-title {
+    font-size: 18px;
+  }
+
 }
 
-.full-news-image {
-  width: 150px;
-  height: 105px;
-  object-fit: contain;
-  background: #ffffff;
-  border-radius: 3px;
-  display: block;
-  margin: 0;
-}
-
-/* =========================================
-   MOBILE RESPONSIVE
-========================================= */
-
-@media (max-width: 700px) {
+/* Mobile */
+@media (max-width: 600px) {
 
   .full-news-hero {
     padding: 55px 22px;
@@ -216,17 +238,18 @@ body:has(.full-news-page) .page__title {
 
   .full-news-item {
     grid-template-columns: 1fr;
-    gap: 10px;
+    gap: 14px;
+    padding: 25px 0;
   }
 
-  .full-news-with-image {
-    grid-template-columns: 1fr;
-    gap: 15px;
+  .full-news-date {
+    padding-top: 0;
   }
 
   .full-news-image {
     width: 170px;
     height: auto;
+    max-height: 120px;
   }
 
   .full-news-title {
@@ -236,17 +259,20 @@ body:has(.full-news-page) .page__title {
   .full-news-description {
     font-size: 15px;
   }
+
 }
 
 </style>
 
+
 <div class="full-news-page">
 
   <!-- =====================================
-       FULL WIDTH HEADER
+       FULL-WIDTH HEADER
   ====================================== -->
 
   <section class="full-news-hero">
+
     <div class="full-news-container">
 
       <div class="full-news-label">
@@ -260,18 +286,22 @@ body:has(.full-news-page) .page__title {
       </p>
 
     </div>
+
   </section>
 
 
   <!-- =====================================
-       FULL WIDTH NEWS CONTENT
+       NEWS CONTENT
   ====================================== -->
 
   <section class="full-news-body">
+
     <div class="full-news-container">
 
 
-      <!-- OCTOBER 2026 -->
+      <!-- =================================
+           OCTOBER 2026 - ACM JETC
+      ================================== -->
 
       <article class="full-news-item">
 
@@ -279,7 +309,14 @@ body:has(.full-news-page) .page__title {
           OCT 2026
         </div>
 
-        <div>
+        <img
+          src="{{ '/images/host2025.png' | relative_url }}"
+          alt="ACM JETC publication announcement"
+          class="full-news-image"
+          loading="lazy"
+        >
+
+        <div class="full-news-details">
 
           <h2 class="full-news-title">
             Paper Accepted to ACM JETC
@@ -296,7 +333,9 @@ body:has(.full-news-page) .page__title {
       </article>
 
 
-      <!-- SEPTEMBER 2026 -->
+      <!-- =================================
+           SEPTEMBER 2026 - IEEE TCAD
+      ================================== -->
 
       <article class="full-news-item">
 
@@ -304,7 +343,14 @@ body:has(.full-news-page) .page__title {
           SEP 2026
         </div>
 
-        <div>
+        <img
+          src="{{ '/images/host2025.png' | relative_url }}"
+          alt="IEEE TCAD publication announcement"
+          class="full-news-image"
+          loading="lazy"
+        >
+
+        <div class="full-news-details">
 
           <h2 class="full-news-title">
             Paper Accepted to IEEE TCAD
@@ -321,7 +367,9 @@ body:has(.full-news-page) .page__title {
       </article>
 
 
-      <!-- OCTOBER 2025 -->
+      <!-- =================================
+           OCTOBER 2025 - IEEE TCAD
+      ================================== -->
 
       <article class="full-news-item">
 
@@ -329,7 +377,14 @@ body:has(.full-news-page) .page__title {
           OCT 2025
         </div>
 
-        <div>
+        <img
+          src="{{ '/images/host2025.png' | relative_url }}"
+          alt="IEEE TCAD publication announcement"
+          class="full-news-image"
+          loading="lazy"
+        >
+
+        <div class="full-news-details">
 
           <h2 class="full-news-title">
             Paper Accepted to IEEE TCAD
@@ -346,7 +401,9 @@ body:has(.full-news-page) .page__title {
       </article>
 
 
-      <!-- DECEMBER 2024 -->
+      <!-- =================================
+           DECEMBER 2024 - JHSS
+      ================================== -->
 
       <article class="full-news-item">
 
@@ -354,15 +411,14 @@ body:has(.full-news-page) .page__title {
           DEC 2024
         </div>
 
-         <img
-            src="{{ '/images/host2025.png' | relative_url }}"
-            alt="IEEE HOST 2025 Conference and Expo"
-            class="full-news-image"
-            loading="lazy"
-         >
+        <img
+          src="{{ '/images/host2025.png' | relative_url }}"
+          alt="Journal of Hardware and Systems Security publication announcement"
+          class="full-news-image"
+          loading="lazy"
+        >
 
-
-        <div>
+        <div class="full-news-details">
 
           <h2 class="full-news-title">
             Paper Accepted to Journal of Hardware
@@ -377,7 +433,6 @@ body:has(.full-news-page) .page__title {
             <a href="https://robi-paul.github.io/files/adjoining_gate_jhass.pdf">
               Read Paper
             </a>
-
           </p>
 
         </div>
@@ -385,7 +440,9 @@ body:has(.full-news-page) .page__title {
       </article>
 
 
-      <!-- DECEMBER 2024 - IEEE HOST 2025 -->
+      <!-- =================================
+           DECEMBER 2024 - IEEE HOST 2025
+      ================================== -->
 
       <article class="full-news-item">
 
@@ -393,38 +450,29 @@ body:has(.full-news-page) .page__title {
           8 DEC 2024
         </div>
 
-        <div class="full-news-with-image">
+        <img
+          src="{{ '/images/host2025.png' | relative_url }}"
+          alt="IEEE HOST 2025 Conference and Expo"
+          class="full-news-image"
+          loading="lazy"
+        >
 
-          <!-- HOST 2025 IMAGE -->
+        <div class="full-news-details">
 
-          <img
-            src="{{ '/images/host2025.png' | relative_url }}"
-            alt="IEEE HOST 2025 Conference and Expo"
-            class="full-news-image"
-            loading="lazy"
-          >
+          <h2 class="full-news-title">
+            Paper Accepted to IEEE HOST 2025
+          </h2>
 
-          <!-- HOST 2025 NEWS DETAILS -->
+          <p class="full-news-description">
+            Our research paper has been accepted to
+            the IEEE International Symposium on
+            Hardware Oriented Security and Trust
+            (HOST 2025).
 
-          <div>
-
-            <h2 class="full-news-title">
-              Paper Accepted to IEEE HOST 2025
-            </h2>
-
-            <p class="full-news-description">
-              Our research paper has been accepted to
-              the IEEE International Symposium on
-              Hardware Oriented Security and Trust
-              (HOST 2025).
-
-              <a href="https://robi-paul.github.io/files/MichScan.pdf">
-                Read Paper
-              </a>
-
-            </p>
-
-          </div>
+            <a href="https://robi-paul.github.io/files/MichScan.pdf">
+              Read Paper
+            </a>
+          </p>
 
         </div>
 
@@ -432,6 +480,7 @@ body:has(.full-news-page) .page__title {
 
 
     </div>
+
   </section>
 
 </div>
