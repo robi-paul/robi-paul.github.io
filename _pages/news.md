@@ -335,18 +335,18 @@ body:has(.full-news-page) .page__title {
 
 
       <!-- =================================
-           SEPTEMBER 2026 - IEEE TCAD
+           SEPTEMBER 2026 - IEEE TIFS
       ================================== -->
 
       <article class="full-news-item">
 
         <div class="full-news-date">
-          SEP 2026
+          1 Feb 2026
         </div>
 
         <img
           src="{{ '/images/host2025.png' | relative_url }}"
-          alt="IEEE TCAD announcement placeholder"
+          alt="IEEE TIFS announcement placeholder"
           class="full-news-image"
           loading="lazy"
         >
@@ -354,13 +354,15 @@ body:has(.full-news-page) .page__title {
         <div class="full-news-details">
 
           <h2 class="full-news-title">
-            Paper Accepted to IEEE TCAD
+            Paper Accepted to IEEE TIFS
           </h2>
 
           <p class="full-news-description">
-            Our research paper has been accepted to
-            IEEE Transactions on Computer-Aided Design
-            of Integrated Circuits and Systems.
+             Our paper <strong>AdvScan: Black-Box Adversarial Example Detection at Runtime through Power Analysis</strong> has been accepted to
+            the IEEE Transactions on Information Forensics and Security.
+            <a href="https://robi-paul.github.io/files/AdvScan.pdf">
+              Read Paper
+            </a>
           </p>
 
         </div>
