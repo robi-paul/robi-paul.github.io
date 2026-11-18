@@ -335,7 +335,43 @@ body:has(.full-news-page) .page__title {
 
 
       <!-- =================================
-           SEPTEMBER 2026 - IEEE TIFS
+           NEW IEEE TCAD PAPER SLOT
+           BEFORE IEEE TIFS
+      ================================== -->
+
+      <article class="full-news-item">
+
+        <div class="full-news-date">
+          SEP 2026
+        </div>
+
+        <img
+          src="{{ '/images/tcad.png' | relative_url }}"
+          alt="IEEE TCAD journal"
+          class="full-news-image"
+          loading="lazy"
+        >
+
+        <div class="full-news-details">
+
+          <h2 class="full-news-title">
+            Paper Accepted to IEEE TCAD
+          </h2>
+
+          <p class="full-news-description">
+            Our paper <strong>[Insert Paper Title]</strong>
+            has been accepted to
+            IEEE Transactions on Computer-Aided Design
+            of Integrated Circuits and Systems.
+          </p>
+
+        </div>
+
+      </article>
+
+
+      <!-- =================================
+           FEBRUARY 2026 - IEEE TIFS
       ================================== -->
 
       <article class="full-news-item">
@@ -346,7 +382,7 @@ body:has(.full-news-page) .page__title {
 
         <img
           src="{{ '/images/Tifs.png' | relative_url }}"
-          alt="IEEE TIFS announcement placeholder"
+          alt="IEEE TIFS journal"
           class="full-news-image"
           loading="lazy"
         >
@@ -358,8 +394,9 @@ body:has(.full-news-page) .page__title {
           </h2>
 
           <p class="full-news-description">
-             Our paper <strong>AdvScan: Black-Box Adversarial Example Detection at Runtime through Power Analysis</strong> has been accepted to
+            Our paper <strong>AdvScan: Black-Box Adversarial Example Detection at Runtime through Power Analysis</strong> has been accepted to
             the IEEE Transactions on Information Forensics and Security.
+
             <a href="https://robi-paul.github.io/files/AdvScan.pdf">
               Read Paper
             </a>
@@ -382,7 +419,7 @@ body:has(.full-news-page) .page__title {
 
         <img
           src="{{ '/images/tcad.png' | relative_url }}"
-          alt="IEEE TCAD announcement placeholder"
+          alt="IEEE TCAD journal"
           class="full-news-image"
           loading="lazy"
         >
@@ -397,6 +434,7 @@ body:has(.full-news-page) .page__title {
             Our paper <strong>DSMLock: Low Overhead Logic Locking for System Security with Design Space Modeling</strong> has been accepted to
             the IEEE Transactions on Computer-Aided Design
             of Integrated Circuits and Systems.
+
             <a href="https://robi-paul.github.io/files/DSMLock.pdf">
               Read Paper
             </a>
@@ -409,7 +447,6 @@ body:has(.full-news-page) .page__title {
 
       <!-- =================================
            DECEMBER 2024 - IEEE HOST 2025
-           SECOND FROM BOTTOM
       ================================== -->
 
       <article class="full-news-item">
@@ -448,8 +485,7 @@ body:has(.full-news-page) .page__title {
 
 
       <!-- =================================
-           DECEMBER 2024 - JHSS
-           LAST ENTRY
+           NOVEMBER 2024 - JHSS
       ================================== -->
 
       <article class="full-news-item">
@@ -460,7 +496,7 @@ body:has(.full-news-page) .page__title {
 
         <img
           src="{{ '/images/jhass.png' | relative_url }}"
-          alt="JHSS announcement placeholder"
+          alt="Journal of Hardware and Systems Security"
           class="full-news-image"
           loading="lazy"
         >
