@@ -82,12 +82,19 @@ body:has(.full-news-page) .page__title {
   line-height: 1.2;
 }
 
+
 .full-news-hero p {
-  color: #adb7c5;
-  font-size: 18px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+  color: #b8c0cd;
+  line-height: 1.8;
+  letter-spacing: 0.2px;
+  max-width: 850px;
   margin: 0;
-  line-height: 1.6;
 }
+
 
 /* Full-width light background */
 .full-news-body {
