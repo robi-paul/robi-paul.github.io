@@ -203,8 +203,7 @@ body:has(.full-news-page) .page__title {
       <h1>What's been happening</h1>
 
       <p>
-        Research publications, academic achievements,
-        and the latest updates on my work.
+        Research publications, academic achievements.
       </p>
 
     </div>
@@ -289,7 +288,7 @@ body:has(.full-news-page) .page__title {
       <!-- NOVEMBER 2024 -->
       <article class="full-news-item">
         <div class="full-news-date">
-          NOV 2024
+          8 Dec 2024
         </div>
         <div>
           <h2 class="full-news-title">
@@ -300,7 +299,7 @@ body:has(.full-news-page) .page__title {
             the IEEE International Symposium on
             Hardware Oriented Security and Trust
             (HOST 2025).
-            <a href="https://robi-paul.github.io/files/michscan_host.pdf">
+            <a href="https://robi-paul.github.io/files/MichScan.pdf">
               Read Paper
             </a>
           </p>
