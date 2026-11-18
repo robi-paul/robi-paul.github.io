@@ -468,7 +468,7 @@ body:has(.full-news-page) .page__title {
           </h2>
 
           <p class="full-news-description">
-            Our research paper has been accepted to
+            Our paper <strong>Mitigating Electro-Optical Frequency Mapping Attacks on Logic-Locked Integrated Circuits</strong> has been accepted to
             the Journal of Hardware and Systems
             Security.
 
