@@ -379,7 +379,7 @@ body:has(.full-news-page) .page__title {
         </div>
 
         <img
-          src="{{ '/images/host2025.png' | relative_url }}"
+          src="{{ '/images/tcad.png' | relative_url }}"
           alt="IEEE TCAD announcement placeholder"
           class="full-news-image"
           loading="lazy"
@@ -395,7 +395,7 @@ body:has(.full-news-page) .page__title {
             Our paper <strong>DSMLock: Low Overhead Logic Locking for System Security with Design Space Modeling</strong> has been accepted to
             the IEEE Transactions on Computer-Aided Design
             of Integrated Circuits and Systems.
-            <a href="https://robi-paul.github.io/files/MichScan.pdf">
+            <a href="https://robi-paul.github.io/files/DSMLock.pdf">
               Read Paper
             </a>
           </p>
