@@ -347,14 +347,12 @@ body:has(.full-news-page) .page__title {
           22 NOV 2026
         </div>
 
-        <div
-          class="full-news-todaes-logo"
-          role="img"
-          aria-label="ACM TODAES journal text logo"
+        <img
+          src="{{ '/images/todaes.png' | relative_url }}"
+          alt="IEEE TCAD journal"
+          class="full-news-image"
+          loading="lazy"
         >
-          <span class="full-news-todaes-acm">ACM</span>
-          <span class="full-news-todaes-name">TODAES</span>
-        </div>
 
         <div class="full-news-details">
 
