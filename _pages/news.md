@@ -156,6 +156,37 @@ body:has(.full-news-page) .page__title {
   margin: 0;
 }
 
+/* Text logo for ACM TODAES */
+
+.full-news-todaes-logo {
+  width: 150px;
+  height: 105px;
+  background: #ffffff;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.full-news-todaes-acm {
+  color: #087c9d;
+  font-family: Arial, sans-serif;
+  font-size: 19px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.full-news-todaes-name {
+  color: #17212b;
+  font-family: Arial, sans-serif;
+  font-size: 25px;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+}
+
 /* News text container */
 
 .full-news-details {
@@ -206,7 +237,8 @@ body:has(.full-news-page) .page__title {
     column-gap: 18px;
   }
 
-  .full-news-image {
+  .full-news-image,
+  .full-news-todaes-logo {
     width: 120px;
     height: 90px;
   }
@@ -251,6 +283,11 @@ body:has(.full-news-page) .page__title {
     width: 170px;
     height: auto;
     max-height: 120px;
+  }
+
+  .full-news-todaes-logo {
+    width: 170px;
+    height: 110px;
   }
 
   .full-news-title {
@@ -301,6 +338,44 @@ body:has(.full-news-page) .page__title {
 
 
       <!-- =================================
+           NOVEMBER 2026 - ACM TODAES
+      ================================== -->
+
+      <article class="full-news-item">
+
+        <div class="full-news-date">
+          22 NOV 2026
+        </div>
+
+        <div
+          class="full-news-todaes-logo"
+          role="img"
+          aria-label="ACM TODAES journal text logo"
+        >
+          <span class="full-news-todaes-acm">ACM</span>
+          <span class="full-news-todaes-name">TODAES</span>
+        </div>
+
+        <div class="full-news-details">
+
+          <h2 class="full-news-title">
+            Paper Accepted to ACM TODAES
+          </h2>
+
+          <p class="full-news-description">
+            Our paper <strong>TopLock: Topology-Based Surrogate
+            Modeling for Logic Locking Design Space
+            Exploration</strong> has been accepted to
+            the ACM Transactions on Design Automation
+            of Electronic Systems.
+          </p>
+
+        </div>
+
+      </article>
+
+
+      <!-- =================================
            OCTOBER 2026 - ACM JETC
       ================================== -->
 
@@ -312,7 +387,7 @@ body:has(.full-news-page) .page__title {
 
         <img
           src="{{ '/images/Jetc.png' | relative_url }}"
-          alt="ACM JETC announcement placeholder"
+          alt="ACM JETC journal"
           class="full-news-image"
           loading="lazy"
         >
@@ -324,9 +399,13 @@ body:has(.full-news-page) .page__title {
           </h2>
 
           <p class="full-news-description">
-            Our paper <strong>SBLLocking: Localization of Optical Side-Channel Leakage in Logic-Locked Integrated Circuits through Structure-based Learning</strong> has been accepted to
+            Our paper <strong>SBLLocking: Localization of
+            Optical Side-Channel Leakage in Logic-Locked
+            Integrated Circuits through Structure-based
+            Learning</strong> has been accepted to
             the ACM Journal on Emerging Technologies
             in Computing Systems.
+
             <a href="https://robi-paul.github.io/files/SBLLocking.pdf">
               Read Paper
             </a>
@@ -338,8 +417,7 @@ body:has(.full-news-page) .page__title {
 
 
       <!-- =================================
-           NEW IEEE TCAD PAPER SLOT
-           BEFORE IEEE TIFS
+           SEPTEMBER 2026 - IEEE TCAD
       ================================== -->
 
       <article class="full-news-item">
@@ -362,10 +440,13 @@ body:has(.full-news-page) .page__title {
           </h2>
 
           <p class="full-news-description">
-            Our paper <strong>Physical Reservoir Computing with Electric Double Layer Transistors for Anomaly Detection using Power Analysis</strong>
+            Our paper <strong>Physical Reservoir Computing
+            with Electric Double Layer Transistors for
+            Anomaly Detection using Power Analysis</strong>
             has been accepted to
             IEEE Transactions on Computer-Aided Design
             of Integrated Circuits and Systems.
+
             <a href="https://robi-paul.github.io/files/RadScan.pdf">
               Read Paper
             </a>
@@ -383,7 +464,7 @@ body:has(.full-news-page) .page__title {
       <article class="full-news-item">
 
         <div class="full-news-date">
-          1 Feb 2026
+          1 FEB 2026
         </div>
 
         <img
@@ -400,8 +481,11 @@ body:has(.full-news-page) .page__title {
           </h2>
 
           <p class="full-news-description">
-            Our paper <strong>AdvScan: Black-Box Adversarial Example Detection at Runtime through Power Analysis</strong> has been accepted to
-            the IEEE Transactions on Information Forensics and Security.
+            Our paper <strong>AdvScan: Black-Box Adversarial
+            Example Detection at Runtime through Power
+            Analysis</strong> has been accepted to
+            the IEEE Transactions on Information
+            Forensics and Security.
 
             <a href="https://robi-paul.github.io/files/AdvScan.pdf">
               Read Paper
@@ -437,7 +521,9 @@ body:has(.full-news-page) .page__title {
           </h2>
 
           <p class="full-news-description">
-            Our paper <strong>DSMLock: Low Overhead Logic Locking for System Security with Design Space Modeling</strong> has been accepted to
+            Our paper <strong>DSMLock: Low Overhead Logic
+            Locking for System Security with Design
+            Space Modeling</strong> has been accepted to
             the IEEE Transactions on Computer-Aided Design
             of Integrated Circuits and Systems.
 
@@ -475,7 +561,9 @@ body:has(.full-news-page) .page__title {
           </h2>
 
           <p class="full-news-description">
-            Our paper <strong>Michscan: Black-Box Neural Network Integrity Checking at Runtime Through Power Analysis</strong> has been accepted to
+            Our paper <strong>Michscan: Black-Box Neural
+            Network Integrity Checking at Runtime Through
+            Power Analysis</strong> has been accepted to
             the IEEE International Symposium on
             Hardware Oriented Security and Trust
             (HOST 2025).
@@ -497,7 +585,7 @@ body:has(.full-news-page) .page__title {
       <article class="full-news-item">
 
         <div class="full-news-date">
-          20 Nov 2024
+          20 NOV 2024
         </div>
 
         <img
@@ -515,7 +603,9 @@ body:has(.full-news-page) .page__title {
           </h2>
 
           <p class="full-news-description">
-            Our paper <strong>Mitigating Electro-Optical Frequency Mapping Attacks on Logic-Locked Integrated Circuits</strong> has been accepted to
+            Our paper <strong>Mitigating Electro-Optical
+            Frequency Mapping Attacks on Logic-Locked
+            Integrated Circuits</strong> has been accepted to
             the Journal of Hardware and Systems
             Security.
 
