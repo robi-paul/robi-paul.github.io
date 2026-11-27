@@ -38,8 +38,47 @@
     "vendor/magnific-popup/magnific-popup"
 ;
 
-/* PERMANENT LIGHT MODE */
+/* =========================================
+   PERMANENT LIGHT MODE
+========================================= */
 
 :root {
     color-scheme: light !important;
+}
+
+/* =========================================
+   DARK NAVIGATION BAR
+========================================= */
+
+.masthead,
+.masthead__inner-wrap,
+.masthead__menu,
+.custom-site-nav,
+.greedy-nav {
+    background: #0d1523 !important;
+    color: #ffffff !important;
+}
+
+/* Remove unwanted line below navigation */
+
+.masthead,
+.masthead__inner-wrap,
+.masthead__menu,
+.custom-site-nav,
+.greedy-nav {
+    border-bottom: none !important;
+    box-shadow: none !important;
+}
+
+/* Navigation text */
+
+.masthead a {
+    color: #ffffff !important;
+    text-decoration: none !important;
+}
+
+/* Navigation hover effect */
+
+.masthead a:hover {
+    color: #b8c0cd !important;
 }
