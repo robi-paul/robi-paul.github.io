@@ -300,6 +300,108 @@ body:has(.full-news-page) .page__title {
 
 }
 
+
+/* =========================================
+   PERSONAL WEBSITE FOOTER
+========================================= */
+
+body:has(.full-news-page) .page__footer {
+  display: none !important;
+}
+
+.robi-footer {
+  width: 100%;
+  background: #eef0eb;
+  border-top: 1px solid #c9cec7;
+  padding: 55px 30px 40px;
+  box-sizing: border-box;
+  color: #17212b;
+}
+
+.robi-footer-container {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.robi-footer-grid {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr 1fr;
+  gap: 45px;
+  align-items: start;
+}
+
+.robi-footer-name {
+  font-family: Arial, sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: -0.8px;
+  color: #17212b;
+  margin-bottom: 16px;
+}
+
+.robi-footer-description {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 15px;
+  line-height: 1.8;
+  color: #73818e;
+  max-width: 280px;
+  margin: 0;
+}
+
+.robi-footer-heading {
+  font-family: monospace;
+  font-size: 11px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #73818e;
+  margin: 0 0 14px;
+}
+
+.robi-footer-text,
+.robi-footer-links a {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 2;
+  color: #17212b !important;
+  text-decoration: none !important;
+}
+
+.robi-footer-links a {
+  display: block;
+  width: fit-content;
+}
+
+.robi-footer-links a:hover {
+  color: #c64c12 !important;
+}
+
+.robi-footer-bottom {
+  border-top: 1px solid #c9cec7;
+  margin-top: 45px;
+  padding-top: 20px;
+  font-family: monospace;
+  font-size: 11px;
+  letter-spacing: 0.3px;
+  color: #73818e;
+}
+
+@media (max-width: 600px) {
+  .robi-footer {
+    padding: 40px 22px 30px;
+  }
+
+  .robi-footer-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .robi-footer-bottom {
+    margin-top: 35px;
+  }
+}
+
 </style>
 
 
@@ -620,5 +722,46 @@ body:has(.full-news-page) .page__title {
     </div>
 
   </section>
+
+
+  <!-- =====================================
+       PERSONAL WEBSITE FOOTER
+  ====================================== -->
+
+  <footer class="robi-footer">
+    <div class="robi-footer-container">
+      <div class="robi-footer-grid">
+
+        <!-- Identity -->
+        <div>
+          <div class="robi-footer-name">Robi Paul</div>
+          <p class="robi-footer-description">
+            Hardware security, machine learning,
+            and the intersection of the two.
+          </p>
+        </div>
+
+        <!-- Location -->
+        <div>
+          <div class="robi-footer-heading">FIND ME</div>
+          <div class="robi-footer-text">Rochester, New York</div>
+        </div>
+
+        <!-- Social links: replace placeholders with your URLs -->
+        <div>
+          <div class="robi-footer-heading">ELSEWHERE</div>
+          <div class="robi-footer-links">
+            <a href="mailto:your-email@rit.edu">your-email@rit.edu</a>
+            <a href="#" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="#" target="_blank" rel="noopener noreferrer">X / Twitter</a>
+            <a href="#" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="robi-footer-bottom">&copy; Robi Paul</div>
+    </div>
+  </footer>
 
 </div>
