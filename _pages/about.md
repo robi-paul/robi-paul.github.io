@@ -194,6 +194,11 @@ body:has(.rp-home) .masthead a:focus-visible { outline:2px solid #fff; outline-o
           <span class="rp-news-copy">Paper accepted to <strong>Journal of Hardware and Systems Security (JHSS).</strong></span>
         </div>
       </div>
+      <div class="rp-news-row" data-category="phd">
+        <span class="rp-date">Jun 21, 2024</span>
+        <span class="rp-news-tag">PhD</span>
+        <span class="rp-news-copy">Passed the <strong>Ph.D. Qualifying Examination.</strong>strong> </span>
+    </div>
       <p class="rp-news-empty" role="status" hidden>No news in this category yet.</p>
       <div class="rp-news-actions">
         <button class="rp-news-toggle" type="button" aria-controls="rp-news-list" aria-expanded="false">Show all 7</button>
