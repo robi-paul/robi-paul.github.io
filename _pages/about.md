@@ -121,6 +121,7 @@ body:has(.rp-home) .masthead a:focus-visible { outline:2px solid #fff; outline-o
           <button type="button" data-filter="all" aria-pressed="true">All</button>
           <button type="button" data-filter="publication" aria-pressed="false">Publications</button>
           <button type="button" data-filter="conference" aria-pressed="false">Conferences</button>
+          <button type="button" data-filter="talks" aria-pressed="false">Talks</button>
           <button type="button" data-filter="teaching" aria-pressed="false">Teaching</button>
           <button type="button" data-filter="phd" aria-pressed="false">PhD</button>
           <button type="button" data-filter="service" aria-pressed="false">Service</button>
