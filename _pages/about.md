@@ -16,9 +16,9 @@ body:has(.rp-home) #main, body:has(.rp-home) .page, body:has(.rp-home) .page__in
 .rp-home { --ink:#17212b; --muted:#63717e; --accent:#42685f; --line:#cbd2d6; color:var(--ink); background:#fff; font-family:Arial, sans-serif; }
 .rp-home * { box-sizing:border-box; }
 .rp-container { max-width:1240px; margin:0 auto; padding:0 36px; }
-.rp-intro { display:grid; grid-template-columns:260px minmax(0,1fr); gap:46px; align-items:start; padding:56px 0 38px; }
+.rp-intro { display:grid; grid-template-columns:210px minmax(0,1fr); gap:32px; align-items:start; padding:56px 0 38px; }
 .rp-photo { width:100%; aspect-ratio:4/5; object-fit:cover; object-position:center; border-radius:18px; background:#edf0eb; box-shadow:0 5px 18px #17212b15; }
-.rp-home .rp-name { font-size:clamp(32px,4vw,52px); letter-spacing:.13em; font-weight:400; line-height:1.15; margin:0 0 14px; color:var(--ink); border:0; padding:0; }
+.rp-home .rp-name { font-size:clamp(28px,3vw,40px); letter-spacing:.10em; font-weight:400; line-height:1.15; margin:0 0 14px; color:var(--ink); border:0; padding:0; }
 .rp-name strong { font-weight:800; }
 .rp-kicker { font-size:13px; letter-spacing:2px; font-weight:700; text-transform:uppercase; color:var(--accent); margin-bottom:14px; }
 .rp-affiliation { font-size:15px; color:var(--muted); line-height:1.7; }
