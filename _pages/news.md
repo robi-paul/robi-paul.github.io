@@ -751,9 +751,8 @@ body:has(.full-news-page) .page__footer {
         <div>
           <div class="robi-footer-heading">ELSEWHERE</div>
           <div class="robi-footer-links">
-            <a href="mailto:your-email@rit.edu">your-email@rit.edu</a>
-            <a href="#" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-            <a href="#" target="_blank" rel="noopener noreferrer">X / Twitter</a>
+            <a href="mailto:rp7248@rit.edu">rp7248@rit.edu</a>
+            <a href="https://www.linkedin.com/in/robi-paul-21522b164/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
             <a href="#" target="_blank" rel="noopener noreferrer">Google Scholar</a>
           </div>
         </div>
