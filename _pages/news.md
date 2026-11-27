@@ -763,7 +763,14 @@ body:has(.full-news-page) .page__content {
         <!-- Location -->
         <div>
           <div class="robi-footer-heading">FIND ME</div>
-          <div class="robi-footer-text">Rochester, New York</div>
+          <div class="robi-footer-text">
+              <a href="https://www.google.com/maps/search/?api=1&query=Rochester+New+York"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                  style="color: inherit; text-decoration: none;">
+                   Rochester, New York
+              </a>
+      </div>
         </div>
 
         <!-- Social links: replace placeholders with your URLs -->
