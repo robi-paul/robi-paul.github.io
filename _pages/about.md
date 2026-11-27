@@ -148,8 +148,13 @@ body:has(.rp-home) .masthead a:focus-visible { outline:2px solid #fff; outline-o
           <span class="rp-news-tag">Service</span>
           <span class="rp-news-copy">Served as a reviewer for the <strong>IEEE International Symposium on Hardware Oriented Security and Trust (HOST 2027).</strong></span>
         </div>
+        <div class="rp-news-row" data-category="service">
+          <span class="rp-date">Aug 4, 2026</span>
+          <span class="rp-news-tag">Service</span>
+          <span class="rp-news-copy">Served as a reviewer for the <strong>Transactions on Dependable and Secure Computing (IEEE TDSC).</strong></span>
+        </div>
         <div class="rp-news-row" data-category="publication">
-          <span class="rp-date">Feb 1, 2026</span>
+          <span class="rp-date">Jul 2, 2026</span>
           <span class="rp-news-tag">Publication</span>
           <span class="rp-news-copy">Paper accepted to <strong>IEEE Transactions on Information Forensics and Security (TIFS).</strong></span>
         </div>
