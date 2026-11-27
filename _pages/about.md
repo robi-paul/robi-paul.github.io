@@ -143,6 +143,11 @@ body:has(.rp-home) .masthead a:focus-visible { outline:2px solid #fff; outline-o
           <span class="rp-news-tag">Publication</span>
           <span class="rp-news-copy">Paper accepted to <strong>IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD).</strong></span>
         </div>
+        <div class="rp-news-row" data-category="service">
+          <span class="rp-date">Aug 4, 2026</span>
+          <span class="rp-news-tag">Service</span>
+          <span class="rp-news-copy">Served as a reviewer for the <strong>IEEE International Symposium on Hardware Oriented Security and Trust (HOST 2027).</strong></span>
+        </div>
         <div class="rp-news-row" data-category="publication">
           <span class="rp-date">Feb 1, 2026</span>
           <span class="rp-news-tag">Publication</span>
@@ -156,7 +161,7 @@ body:has(.rp-home) .masthead a:focus-visible { outline:2px solid #fff; outline-o
         <div class="rp-news-row" data-category="conference">
           <span class="rp-date">May 6, 2025</span>
           <span class="rp-news-tag">Conference</span>
-          <span class="rp-news-copy"> Presented our research paper <strong>“MichScan,”</strong> at IEEE HOST 2025 in San Jose, California.</span>
+          <span class="rp-news-copy"> Presented our research paper <strong>MichScan,</strong> at IEEE HOST 2025 in San Jose, California.</span>
         </div>
         <div class="rp-news-row" data-category="publication" hidden>
           <span class="rp-date">Dec 8, 2024</span>
