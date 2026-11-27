@@ -305,8 +305,27 @@ body:has(.full-news-page) .page__title {
    PERSONAL WEBSITE FOOTER
 ========================================= */
 
+/* Remove default footer and reserved spacing */
+
 body:has(.full-news-page) .page__footer {
   display: none !important;
+}
+
+body:has(.full-news-page) {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+body:has(.full-news-page) #main,
+body:has(.full-news-page) .page,
+body:has(.full-news-page) .page__inner-wrap,
+body:has(.full-news-page) .page__content {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.robi-footer {
+  margin-bottom: 0 !important;
 }
 
 .robi-footer {
