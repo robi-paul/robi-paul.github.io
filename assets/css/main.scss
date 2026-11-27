@@ -3,9 +3,6 @@
 
 /*
  * This file controls what is imported from /_sass
- *
- * Note that the files are processed in the order they are imported, so they are partly
-   sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
  */
 
 @import
@@ -41,51 +38,8 @@
     "vendor/magnific-popup/magnific-popup"
 ;
 
-/* =========================================
-   PERMANENT LIGHT MODE
-========================================= */
+/* PERMANENT LIGHT MODE */
 
 :root {
     color-scheme: light !important;
-}
-
-/* =========================================
-   RIGHT-ALIGNED DESKTOP NAVIGATION
-========================================= */
-
-@media (min-width: 900px) {
-
-    #site-nav {
-        position: relative;
-        padding-left: 150px;
-        box-sizing: border-box;
-    }
-
-    /* Keep navigation links on the right */
-
-    #site-nav .visible-links {
-        display: table;
-        width: auto;
-        margin-left: auto;
-        margin-right: 0;
-    }
-
-    /* Keep the website name on the left */
-
-    #site-nav .visible-links > li:first-child {
-        position: absolute;
-        left: 0;
-        top: 50%;
-        transform: translateY(-50%);
-        padding-right: 0;
-        white-space: nowrap;
-    }
-
-    /* Preserve original navigation styling */
-
-    #site-nav .visible-links > li {
-        display: table-cell;
-        vertical-align: middle;
-    }
-
 }
