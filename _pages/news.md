@@ -755,8 +755,7 @@ body:has(.full-news-page) .page__content {
         <div>
           <div class="robi-footer-name">Robi Paul</div>
           <p class="robi-footer-description">
-            Hardware security, machine learning,
-            and the intersection of the two.
+            Hardware security, side-channel analysis, and trustworthy machine learning.
           </p>
         </div>
 
