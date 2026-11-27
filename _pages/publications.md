@@ -84,7 +84,7 @@ body:has(.full-publications-page) .page__title {
 ========================================= */
 
 .pub-body {
-  background: #f2f4ef;
+  background: #ffffff;
   color: #17212b;
   width: 100%;
   min-height: 70vh;
