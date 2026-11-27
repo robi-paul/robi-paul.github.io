@@ -18,8 +18,7 @@ body:has(.rp-home) #main, body:has(.rp-home) .page, body:has(.rp-home) .page__in
 .rp-container { max-width:1240px; margin:0 auto; padding:0 36px; }
 .rp-intro { display:grid; grid-template-columns:210px minmax(0,1fr); gap:36px; align-items:start; padding:56px 0 38px; }
 .rp-photo { width:100%; aspect-ratio:4/5; object-fit:cover; object-position:center; border-radius:18px; background:#edf0eb; box-shadow:0 5px 18px #17212b15; }
-.rp-home .rp-name { font-size:clamp(28px,3vw,40px); letter-spacing:.10em; font-weight:400; line-height:1.15; margin:0 0 14px; color:var(--ink); border:0; padding:0; }
-.rp-name strong { font-weight:800; }
+.rp-home .rp-name { font-size:clamp(28px,3vw,40px); letter-spacing:.02em; font-weight:600; line-height:1.15; margin:0 0 14px; color:var(--ink); border:0; padding:0; }
 .rp-kicker { font-size:13px; letter-spacing:2px; font-weight:700; text-transform:uppercase; color:var(--accent); margin-bottom:14px; }
 .rp-affiliation { font-size:15px; color:var(--muted); line-height:1.7; }
 .rp-home .rp-bio { font-size:16px; line-height:1.8; margin:20px 0 14px; color:var(--ink); }
@@ -41,7 +40,13 @@ body:has(.rp-home) #main, body:has(.rp-home) .page, body:has(.rp-home) .page__in
 .rp-section-head { display:flex; align-items:center; justify-content:space-between; gap:16px; margin-bottom:20px; }
 .rp-home .rp-section-head h2 { font-size:19px; margin:0; padding:0; border:0; }
 .rp-home .rp-more { font-size:13px; color:var(--accent); text-decoration:none; }
-.rp-education { font-size:14px; line-height:1.75; color:var(--muted); }
+/* Compact collaborators */
+.rp-collaborators { display:grid; gap:12px; border-top:1px solid var(--line); padding-top:16px; }
+.rp-collaborator-group { display:grid; grid-template-columns:180px minmax(0,1fr); gap:16px; align-items:baseline; font-size:15px; line-height:1.7; }
+.rp-collaborator-label { font-weight:600; color:var(--ink); }
+.rp-home .rp-collaborator-names a { color:var(--accent); text-decoration:none; }
+.rp-home .rp-collaborator-names a:hover { text-decoration:underline; }
+@media(max-width:640px) { .rp-collaborator-group { grid-template-columns:1fr; gap:3px; } }
 .rp-footer { background:#eef0eb; border-top:1px solid #c9cec7; margin-top:36px; padding:55px 0 40px; }
 .rp-footer-grid { display:grid; grid-template-columns:1.4fr 1fr 1fr; gap:45px; }
 .rp-footer-name { font-size:25px; font-weight:700; margin-bottom:16px; }
@@ -78,9 +83,9 @@ body:has(.rp-home) #main, body:has(.rp-home) .page, body:has(.rp-home) .page__in
 <div class="rp-home">
   <main class="rp-container">
     <section class="rp-intro" aria-label="Introduction">
-      <img class="rp-photo" src="{{ '/images/image.jpg' | relative_url }}" alt="Robi Paul" />
+      <img class="rp-photo" src="{{ '/images/portrait.jpg' | relative_url }}" alt="Robi Paul" />
       <div>
-        <h1 class="rp-name">ROBI <strong>PAUL</strong></h1>
+        <h1 class="rp-name">Robi Paul</h1>
         <div class="rp-kicker">Ph.D. Student &nbsp; | &nbsp; Hardware Security</div>
         <div class="rp-affiliation">Graduate Research Assistant · <strong>Rochester Institute of Technology</strong><br>Department of Computer Engineering</div>
         <p class="rp-bio">I am a Ph.D. student in Computer Engineering at the Rochester Institute of Technology (RIT), advised by Prof. Michael Zuzak. My research explores the intersection of hardware security, physical side-channel analysis, and trustworthy machine learning. I investigate how physical information leakage can be leveraged to understand, attack, and protect computing systems.</p>
@@ -109,7 +114,6 @@ body:has(.rp-home) #main, body:has(.rp-home) .page, body:has(.rp-home) .page__in
         <div class="rp-news-filters" role="group" aria-label="Filter news">
           <button type="button" data-filter="all" aria-pressed="true">All</button>
           <button type="button" data-filter="publication" aria-pressed="false">Publications</button>
-          <button type="button" data-filter="award" aria-pressed="false">Awards</button>
           <button type="button" data-filter="conference" aria-pressed="false">Conferences</button>
           <button type="button" data-filter="teaching" aria-pressed="false">Teaching</button>
           <button type="button" data-filter="phd" aria-pressed="false">PhD</button>
@@ -191,8 +195,18 @@ body:has(.rp-home) #main, body:has(.rp-home) .page, body:has(.rp-home) .page__in
     })();
     </script>
     <section class="rp-section">
-      <div class="rp-section-head"><h2>Education</h2></div>
-      <div class="rp-education"><strong>Ph.D. in Computer Engineering</strong><br>Rochester Institute of Technology · In progress<br><br><strong>B.Sc. in Electrical Engineering</strong><br>Shahjalal University of Science and Technology, Sylhet, Bangladesh · 2022</div>
+      <div class="rp-section-head"><h2>Collaborators</h2></div>
+      <div class="rp-collaborators">
+        <!-- Replace each placeholder URL and name with the actual collaborator. -->
+        <div class="rp-collaborator-group">
+          <span class="rp-collaborator-label">Faculty:</span>
+          <span class="rp-collaborator-names"><a href="https://example.com/faculty-1" target="_blank" rel="noopener noreferrer">Gen Dow</a>, <a href="https://example.com/faculty-2" target="_blank" rel="noopener noreferrer">Gen Dow</a></span>
+        </div>
+        <div class="rp-collaborator-group">
+          <span class="rp-collaborator-label">Student Researchers:</span>
+          <span class="rp-collaborator-names"><a href="https://example.com/student-1" target="_blank" rel="noopener noreferrer">Gen Dow</a>, <a href="https://example.com/student-2" target="_blank" rel="noopener noreferrer">Gen Dow</a></span>
+        </div>
+      </div>
     </section>
   </main>
   <footer class="rp-footer">
