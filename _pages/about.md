@@ -202,12 +202,16 @@ body:has(.rp-home) #main, body:has(.rp-home) .page, body:has(.rp-home) .page__in
           <span class="rp-collaborator-label">Faculty:</span>
           <span class="rp-collaborator-names">
             <a href="https://mzuzak.github.io/" target="_blank" rel="noopener noreferrer">Michael Zuzak</a>, 
-            <a href="https://example.com/faculty-2" target="_blank" rel="noopener noreferrer">Gen Dow</a>
+            <a href="https://www.rit.edu/xugroup/" target="_blank" rel="noopener noreferrer">Ke Xu</a>
           </span>
         </div>
         <div class="rp-collaborator-group">
           <span class="rp-collaborator-label">Student Researchers:</span>
-          <span class="rp-collaborator-names"><a href="https://example.com/student-1" target="_blank" rel="noopener noreferrer">Gen Dow</a>, <a href="https://example.com/student-2" target="_blank" rel="noopener noreferrer">Gen Dow</a></span>
+          <span class="rp-collaborator-names">
+            <a href="https://scholar.google.ca/citations?user=ttR2WLIAAAAJ&hl=en&authuser=1" target="_blank" rel="noopener noreferrer">Long Lam</a>, 
+            <a href="https://scholar.google.ca/citations?user=Pgq2SSsAAAAJ&hl=en&authuser=1" target="_blank" rel="noopener noreferrer">Maksym Melnyk</a>
+            <a href="https://scholar.google.ca/citations?user=LeOI9toAAAAJ&hl=en&authuser=1" target="_blank" rel="noopener noreferrer">Nithil Harris Manimaran</a>
+          </span>
         </div>
       </div>
     </section>
