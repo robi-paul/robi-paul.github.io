@@ -108,7 +108,7 @@ body:has(.full-news-page) .page__title {
 ========================================= */
 
 .full-news-body {
-  background: #f2f4ef;
+  background: #ffffff;
   color: #17212b;
   width: 100%;
   min-height: 65vh;
