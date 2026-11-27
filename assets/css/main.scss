@@ -13,7 +13,6 @@
 
     "themes",
     "theme/default",
-    "theme/dark",
 
     "include/mixins",
     "vendor/susy/susy",
@@ -41,3 +40,11 @@
     "vendor/font-awesome/brands",
     "vendor/magnific-popup/magnific-popup"
 ;
+
+/* =========================================
+   PERMANENT LIGHT MODE
+========================================= */
+
+:root {
+    color-scheme: light !important;
+}
