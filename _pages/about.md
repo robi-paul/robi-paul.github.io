@@ -197,7 +197,7 @@ body:has(.rp-home) .masthead a:focus-visible { outline:2px solid #fff; outline-o
       <div class="rp-news-row" data-category="phd">
         <span class="rp-date">Jun 21, 2024</span>
         <span class="rp-news-tag">PhD</span>
-        <span class="rp-news-copy">Passed the <strong>Ph.D. Qualifying Examination.</strong>strong> </span>
+        <span class="rp-news-copy">Passed the <strong>Ph.D. Qualifying Examination.</strong> </span>
     </div>
       <p class="rp-news-empty" role="status" hidden>No news in this category yet.</p>
       <div class="rp-news-actions">
