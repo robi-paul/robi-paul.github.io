@@ -772,7 +772,7 @@ body:has(.full-news-page) .page__content {
           <div class="robi-footer-links">
             <a href="mailto:rp7248@rit.edu">rp7248@rit.edu</a>
             <a href="https://www.linkedin.com/in/robi-paul-21522b164/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-            <a href="#" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+            <a href="https://scholar.google.ca/citations?user=7Z14CtUAAAAJ&hl=en&authuser=1" target="_blank" rel="noopener noreferrer">Google Scholar</a>
           </div>
         </div>
 
