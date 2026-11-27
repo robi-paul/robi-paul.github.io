@@ -78,7 +78,8 @@ body:has(.rp-home) .masthead__inner-wrap,
 body:has(.rp-home) .masthead__menu,
 body:has(.rp-home) .custom-site-nav,
 body:has(.rp-home) .greedy-nav { background:#0d1523 !important; color:#fff !important; }
-body:has(.rp-home) .masthead { border-bottom:1px solid #253043 !important; }
+/*body:has(.rp-home) .masthead { border-bottom:1px solid #253043 !important; }*/
+body:has(.rp-home) .masthead {     border: none !important;     box-shadow: none !important; }
 body:has(.rp-home) .masthead a { color:#fff !important; }
 body:has(.rp-home) .masthead a:hover { color:#b8c0cd !important; }
 body:has(.rp-home) .masthead a:focus-visible { outline:2px solid #fff; outline-offset:4px; }
