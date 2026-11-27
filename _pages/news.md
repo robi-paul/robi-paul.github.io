@@ -330,7 +330,7 @@ body:has(.full-news-page) .page__content {
 
 .robi-footer {
   width: 100%;
-  background: #eef0eb;
+  background: #ffffff;
   border-top: 1px solid #c9cec7;
   padding: 55px 30px 40px;
   box-sizing: border-box;
