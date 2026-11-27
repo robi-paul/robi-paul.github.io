@@ -153,6 +153,11 @@ body:has(.rp-home) .masthead a:focus-visible { outline:2px solid #fff; outline-o
           <span class="rp-news-tag">Publication</span>
           <span class="rp-news-copy">Paper accepted to <strong>IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD).</strong></span>
         </div>
+        <div class="rp-news-row" data-category="conference">
+          <span class="rp-date">May 6, 2025</span>
+          <span class="rp-news-tag">Conference</span>
+          <span class="rp-news-copy">Paper accepted to <strong>Presented our research paper, “MichScan,” at IEEE HOST 2025 in San Jose, California.</strong></span>
+        </div>
         <div class="rp-news-row" data-category="publication" hidden>
           <span class="rp-date">Dec 8, 2024</span>
           <span class="rp-news-tag">Publication</span>
