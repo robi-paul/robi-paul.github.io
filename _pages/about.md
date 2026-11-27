@@ -153,7 +153,7 @@ body:has(.rp-home) .masthead a:focus-visible { outline:2px solid #fff; outline-o
           <span class="rp-news-tag">Publication</span>
           <span class="rp-news-copy">Paper accepted to <strong>IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD).</strong></span>
         </div>
-        <div class="rp-news-row" data-category="publication conference" hidden>
+        <div class="rp-news-row" data-category="publication" hidden>
           <span class="rp-date">Dec 8, 2024</span>
           <span class="rp-news-tag">Publication</span>
           <span class="rp-news-copy">Paper accepted to <strong>IEEE International Symposium on Hardware Oriented Security and Trust (HOST 2025).</strong></span>
