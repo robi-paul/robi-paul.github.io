@@ -48,3 +48,25 @@
 :root {
     color-scheme: light !important;
 }
+
+/* =========================================
+   NAVIGATION ALIGNMENT
+========================================= */
+
+.greedy-nav .visible-links {
+    display: flex !important;
+    align-items: center;
+    width: 100%;
+}
+
+/* Keep website name on the left */
+
+.greedy-nav .visible-links > li:first-child {
+    margin-right: auto !important;
+}
+
+/* Keep navigation items on the right */
+
+.greedy-nav .visible-links > li:not(:first-child) {
+    flex-shrink: 0;
+}
