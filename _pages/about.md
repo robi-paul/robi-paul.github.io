@@ -177,7 +177,7 @@ body:has(.rp-home) .masthead a:focus-visible { outline:2px solid #fff; outline-o
         <div class="rp-news-row" data-category="talks">
           <span class="rp-date">Sep 12, 2025</span>
           <span class="rp-news-tag">Talks</span>
-          <span class="rp-news-copy">Presented my research at the <strong>Doctoral Seminar</strong>at Rochester Institute of Technology (RIT).</span>
+          <span class="rp-news-copy">Presented my research at the <strong>Doctoral Seminar</strong> at Rochester Institute of Technology (RIT).</span>
         </div>
         <div class="rp-news-row" data-category="service">
           <span class="rp-date">Jun 18, 2025</span>
