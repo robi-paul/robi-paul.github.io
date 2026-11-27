@@ -50,23 +50,42 @@
 }
 
 /* =========================================
-   NAVIGATION ALIGNMENT
+   RIGHT-ALIGNED DESKTOP NAVIGATION
 ========================================= */
 
-.greedy-nav .visible-links {
-    display: flex !important;
-    align-items: center;
-    width: 100%;
-}
+@media (min-width: 900px) {
 
-/* Keep website name on the left */
+    #site-nav {
+        position: relative;
+        padding-left: 150px;
+        box-sizing: border-box;
+    }
 
-.greedy-nav .visible-links > li:first-child {
-    margin-right: auto !important;
-}
+    /* Keep navigation links on the right */
 
-/* Keep navigation items on the right */
+    #site-nav .visible-links {
+        display: table;
+        width: auto;
+        margin-left: auto;
+        margin-right: 0;
+    }
 
-.greedy-nav .visible-links > li:not(:first-child) {
-    flex-shrink: 0;
+    /* Keep the website name on the left */
+
+    #site-nav .visible-links > li:first-child {
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        padding-right: 0;
+        white-space: nowrap;
+    }
+
+    /* Preserve original navigation styling */
+
+    #site-nav .visible-links > li {
+        display: table-cell;
+        vertical-align: middle;
+    }
+
 }
