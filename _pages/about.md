@@ -200,7 +200,10 @@ body:has(.rp-home) #main, body:has(.rp-home) .page, body:has(.rp-home) .page__in
         <!-- Replace each placeholder URL and name with the actual collaborator. -->
         <div class="rp-collaborator-group">
           <span class="rp-collaborator-label">Faculty:</span>
-          <span class="rp-collaborator-names"><a href="https://example.com/faculty-1" target="_blank" rel="noopener noreferrer">Gen Dow</a>, <a href="https://example.com/faculty-2" target="_blank" rel="noopener noreferrer">Gen Dow</a></span>
+          <span class="rp-collaborator-names">
+            <a href="https://mzuzak.github.io/" target="_blank" rel="noopener noreferrer">Michael Zuzak</a>, 
+            <a href="https://example.com/faculty-2" target="_blank" rel="noopener noreferrer">Gen Dow</a>
+          </span>
         </div>
         <div class="rp-collaborator-group">
           <span class="rp-collaborator-label">Student Researchers:</span>
