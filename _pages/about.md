@@ -7,6 +7,7 @@ classes: wide
 redirect_from:
   - /about/
   - /about.html
+  - /news/
 ---
 
 <style>
@@ -66,7 +67,7 @@ body:has(.rp-home) #main, body:has(.rp-home) .page, body:has(.rp-home) .page__in
 .rp-news-copy { flex:1; min-width:0; }
 .rp-news-copy strong { color:var(--ink); }
 .rp-home .rp-news-row[hidden], .rp-home .rp-news-toggle[hidden], .rp-home .rp-news-empty[hidden] { display:none !important; }
-.rp-news-actions { display:flex; justify-content:space-between; align-items:center; gap:16px; margin-top:16px; }
+.rp-news-actions { display:flex; justify-content:flex-start; align-items:center; gap:16px; margin-top:16px; }
 .rp-news-toggle { border:0; border-bottom:1px solid var(--muted); padding:0 0 4px; background:transparent; color:var(--ink); font:600 13px Arial,sans-serif; cursor:pointer; }
 .rp-news-empty { font-size:14px; color:var(--muted); padding:16px 0; }
 .rp-news-filters button:focus-visible,.rp-news-toggle:focus-visible { outline:2px solid var(--accent); outline-offset:2px; }
@@ -154,37 +155,37 @@ body:has(.rp-home) .masthead a:focus-visible { outline:2px solid #fff; outline-o
           <span class="rp-news-tag">Service</span>
           <span class="rp-news-copy">Served as a reviewer for the <strong>IEEE International Symposium on Hardware Oriented Security and Trust (HOST 2027).</strong></span>
         </div>
-        <div class="rp-news-row" data-category="service">
+        <div class="rp-news-row" data-category="service" hidden>
           <span class="rp-date">Jul 3, 2026</span>
           <span class="rp-news-tag">Service</span>
           <span class="rp-news-copy">Served as a reviewer for the <strong>Transactions on Dependable and Secure Computing (IEEE TDSC).</strong></span>
         </div>
-        <div class="rp-news-row" data-category="service">
+        <div class="rp-news-row" data-category="service" hidden>
           <span class="rp-date">Mar 10, 2026</span>
           <span class="rp-news-tag">Service</span>
           <span class="rp-news-copy">Served as a reviewer for the <strong>IEEE Great Lakes Symposium on VLSI (GLSVLSI 2026).</strong></span>
         </div>
-        <div class="rp-news-row" data-category="publication">
+        <div class="rp-news-row" data-category="publication" hidden>
           <span class="rp-date">Feb 1, 2026</span>
           <span class="rp-news-tag">Publication</span>
           <span class="rp-news-copy">Paper accepted to <strong>IEEE Transactions on Information Forensics and Security (TIFS).</strong></span>
         </div>
-        <div class="rp-news-row" data-category="publication">
+        <div class="rp-news-row" data-category="publication" hidden>
           <span class="rp-date">Oct 11, 2025</span>
           <span class="rp-news-tag">Publication</span>
           <span class="rp-news-copy">Paper accepted to <strong>IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD).</strong></span>
         </div>
-        <div class="rp-news-row" data-category="talks">
+        <div class="rp-news-row" data-category="talks" hidden>
           <span class="rp-date">Sep 12, 2025</span>
           <span class="rp-news-tag">Talks</span>
           <span class="rp-news-copy">Presented my research at the <strong>Doctoral Seminar</strong> at Rochester Institute of Technology (RIT).</span>
         </div>
-        <div class="rp-news-row" data-category="service">
+        <div class="rp-news-row" data-category="service" hidden>
           <span class="rp-date">Jun 18, 2025</span>
           <span class="rp-news-tag">Service</span>
           <span class="rp-news-copy">Served as a reviewer for the <strong>IEEE International System-on-Chip Conference (SOCC 2025).</strong></span>
         </div>
-        <div class="rp-news-row" data-category="conference">
+        <div class="rp-news-row" data-category="conference" hidden>
           <span class="rp-date">May 6, 2025</span>
           <span class="rp-news-tag">Conference</span>
           <span class="rp-news-copy"> Presented our research paper <strong>MichScan,</strong> at IEEE HOST 2025 in San Jose, California.</span>
@@ -199,16 +200,16 @@ body:has(.rp-home) .masthead a:focus-visible { outline:2px solid #fff; outline-o
           <span class="rp-news-tag">Publication</span>
           <span class="rp-news-copy">Paper accepted to <strong>Journal of Hardware and Systems Security (JHSS).</strong></span>
         </div>
-      </div>
-      <div class="rp-news-row" data-category="phd">
+        <div class="rp-news-row" data-category="phd" hidden>
         <span class="rp-date">Jun 21, 2024</span>
         <span class="rp-news-tag">PhD</span>
         <span class="rp-news-copy">Passed the <strong>Ph.D. Qualifying Examination.</strong> </span>
-    </div>
+        </div>
+      </div>
       <p class="rp-news-empty" role="status" hidden>No news in this category yet.</p>
       <div class="rp-news-actions">
-        <button class="rp-news-toggle" type="button" aria-controls="rp-news-list" aria-expanded="false">Show all 7</button>
-        <a class="rp-more" href="{{ '/news/' | relative_url }}">View full news page &rarr;</a>
+        <button class="rp-news-toggle" type="button" aria-controls="rp-news-list" aria-expanded="false">Show all 15</button>
+
       </div>
     </section>
     <script>
