@@ -57,7 +57,7 @@ body:has(.rp-home) #main, body:has(.rp-home) .page, body:has(.rp-home) .page__in
 <div class="rp-home">
   <main class="rp-container">
     <section class="rp-intro" aria-label="Introduction">
-      <img class="rp-photo" src="{{ '/images/image.jpg' | relative_url }}" alt="Robi Paul" />
+      <img class="rp-photo" src="{{ '/images/portrait.jpg' | relative_url }}" alt="Robi Paul" />
       <div>
         <h1 class="rp-name">ROBI <strong>PAUL</strong></h1>
         <div class="rp-kicker">Ph.D. Student &nbsp; | &nbsp; Hardware Security</div>
