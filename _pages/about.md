@@ -47,16 +47,10 @@ body:has(.rp-home) #main, body:has(.rp-home) .page, body:has(.rp-home) .page__in
 .rp-home .rp-collaborator-names a { color:var(--accent); text-decoration:none; }
 .rp-home .rp-collaborator-names a:hover { text-decoration:underline; }
 @media(max-width:640px) { .rp-collaborator-group { grid-template-columns:1fr; gap:3px; } }
-.rp-footer { background:#eef0eb; border-top:1px solid #c9cec7; margin-top:36px; padding:55px 0 40px; }
-.rp-footer-grid { display:grid; grid-template-columns:1.4fr 1fr 1fr; gap:45px; }
-.rp-footer-name { font-size:25px; font-weight:700; margin-bottom:16px; }
-.rp-home .rp-footer-description { font:15px/1.8 Georgia,serif; color:var(--muted); max-width:280px; margin:0; }
-.rp-footer-label { font:11px monospace; letter-spacing:2px; color:var(--muted); margin-bottom:14px; }
-.rp-home .rp-footer a { display:block; width:fit-content; font:15px/2 Georgia,serif; color:var(--ink); text-decoration:none; }
-.rp-home .rp-footer a:hover { text-decoration:underline; }
-.rp-copyright { border-top:1px solid #c9cec7; margin-top:45px; padding-top:20px; font:11px monospace; color:var(--muted); }
+.rp-footer { background:#eef0eb; border-top:1px solid #c9cec7; margin-top:20px; padding:20px 0; }
+.rp-copyright { font:11px monospace; color:var(--muted); }
 @media(max-width:850px) { .rp-intro { grid-template-columns:175px minmax(0,1fr); gap:28px; } .rp-card { padding:16px; } }
-@media(max-width:640px) { .rp-container { padding:0 22px; } .rp-intro { grid-template-columns:1fr; padding-top:32px; } .rp-photo { max-width:175px; } .rp-cards,.rp-footer-grid { grid-template-columns:1fr; } .rp-card + .rp-card { border-left:0; border-top:1px solid var(--line); } .rp-news-row { grid-template-columns:1fr; gap:5px; } .rp-footer-grid { gap:24px; } }
+@media(max-width:640px) { .rp-container { padding:0 22px; } .rp-intro { grid-template-columns:1fr; padding-top:32px; } .rp-photo { max-width:175px; } .rp-cards { grid-template-columns:1fr; } .rp-card + .rp-card { border-left:0; border-top:1px solid var(--line); } .rp-news-row { grid-template-columns:1fr; gap:5px; } }
 
 /* Filterable latest news */
 .rp-news-head { display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:12px; padding-bottom:12px; border-bottom:1px solid var(--ink); }
@@ -77,6 +71,17 @@ body:has(.rp-home) #main, body:has(.rp-home) .page, body:has(.rp-home) .page__in
 .rp-news-empty { font-size:14px; color:var(--muted); padding:16px 0; }
 .rp-news-filters button:focus-visible,.rp-news-toggle:focus-visible { outline:2px solid var(--accent); outline-offset:2px; }
 @media(max-width:640px) { .rp-home .rp-news-row { flex-wrap:wrap; gap:8px; } .rp-news-row .rp-date { flex-basis:auto; } .rp-news-copy { flex-basis:100%; } }
+
+/* Dark top navigation (homepage only) */
+body:has(.rp-home) .masthead,
+body:has(.rp-home) .masthead__inner-wrap,
+body:has(.rp-home) .masthead__menu,
+body:has(.rp-home) .custom-site-nav,
+body:has(.rp-home) .greedy-nav { background:#0d1523 !important; color:#fff !important; }
+body:has(.rp-home) .masthead { border-bottom:1px solid #253043 !important; }
+body:has(.rp-home) .masthead a { color:#fff !important; }
+body:has(.rp-home) .masthead a:hover { color:#b8c0cd !important; }
+body:has(.rp-home) .masthead a:focus-visible { outline:2px solid #fff; outline-offset:4px; }
 
 </style>
 
@@ -218,11 +223,6 @@ body:has(.rp-home) #main, body:has(.rp-home) .page, body:has(.rp-home) .page__in
   </main>
   <footer class="rp-footer">
     <div class="rp-container">
-      <div class="rp-footer-grid">
-        <div><div class="rp-footer-name">Robi Paul</div><p class="rp-footer-description">Hardware security, machine learning, and trustworthy computing.</p></div>
-        <div><div class="rp-footer-label">FIND ME</div><a href="https://www.google.com/maps/search/?api=1&amp;query=Rochester+New+York" target="_blank" rel="noopener noreferrer">Rochester, New York</a></div>
-        <div><div class="rp-footer-label">ELSEWHERE</div><a href="mailto:rp7248@rit.edu">rp7248@rit.edu</a>{% if site.author.linkedin %}<a href="https://www.linkedin.com/in/{{ site.author.linkedin }}/" target="_blank" rel="noopener noreferrer">LinkedIn</a>{% endif %}<a href="https://scholar.google.com/citations?user=7Z14CtUAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar</a></div>
-      </div>
       <div class="rp-copyright">&copy; Robi Paul</div>
     </div>
   </footer>
