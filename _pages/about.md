@@ -168,6 +168,11 @@ body:has(.rp-home) .masthead a:focus-visible { outline:2px solid #fff; outline-o
           <span class="rp-news-tag">Publication</span>
           <span class="rp-news-copy">Paper accepted to <strong>IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD).</strong></span>
         </div>
+        <div class="rp-news-row" data-category="service">
+          <span class="rp-date">Jun 18, 2025</span>
+          <span class="rp-news-tag">Service</span>
+          <span class="rp-news-copy">Served as a reviewer for the <strong>IEEE International System-on-Chip Conference (SOCC 2025).</strong></span>
+        </div>
         <div class="rp-news-row" data-category="conference">
           <span class="rp-date">May 6, 2025</span>
           <span class="rp-news-tag">Conference</span>
