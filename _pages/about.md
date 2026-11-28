@@ -147,7 +147,7 @@ body:has(.rp-home) .masthead a:focus-visible { outline:2px solid #fff; outline-o
         <div class="rp-news-row" data-category="teaching">
           <span class="rp-date">Aug 26 2026</span>
           <span class="rp-news-tag">Teaching</span>
-          <span class="rp-news-copy">Serving as a Lab Instructor for <strong>CMPE 630: Digital IC Design</strong> during Fall 2026.</span>
+          <span class="rp-news-copy">Served as a Lab Instructor for <strong>CMPE 630: Digital IC Design</strong> during Fall 2026.</span>
         </div>
         <div class="rp-news-row" data-category="service">
           <span class="rp-date">Aug 4, 2026</span>
