@@ -48,7 +48,7 @@ body:has(.rp-home) #main, body:has(.rp-home) .page, body:has(.rp-home) .page__in
 .rp-home .rp-collaborator-names a { color:var(--accent); text-decoration:none; }
 .rp-home .rp-collaborator-names a:hover { text-decoration:underline; }
 @media(max-width:640px) { .rp-collaborator-group { grid-template-columns:1fr; gap:3px; } }
-.rp-footer { background:#eef0eb; border-top:1px solid #c9cec7; margin-top:20px; padding:20px 0; }
+.rp-footer { background:#ffffff; border-top:1px solid #c9cec7; margin-top:20px; padding:20px 0; }
 .rp-copyright { font:11px monospace; color:var(--muted); }
 @media(max-width:850px) { .rp-intro { grid-template-columns:175px minmax(0,1fr); gap:28px; } .rp-card { padding:16px; } }
 @media(max-width:640px) { .rp-container { padding:0 22px; } .rp-intro { grid-template-columns:1fr; padding-top:32px; } .rp-photo { max-width:175px; } .rp-cards { grid-template-columns:1fr; } .rp-card + .rp-card { border-left:0; border-top:1px solid var(--line); } .rp-news-row { grid-template-columns:1fr; gap:5px; } }
