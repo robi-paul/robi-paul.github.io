@@ -99,9 +99,8 @@ body:has(.rp-home) .masthead a:focus-visible { outline:2px solid #fff; outline-o
         <div class="rp-tags"><span>Hardware Security</span><span>Side-Channel Analysis</span><span>AI Security</span><span>Digital VLSI/CAD</span></div>
         <div class="rp-links">
           <a href="https://scholar.google.com/citations?user=7Z14CtUAAAAJ" target="_blank" rel="noopener noreferrer">SCHOLAR</a>
+          <a href="https://www.linkedin.com/in/robi-paul-21522b164/" target="_blank" rel="noopener noreferrer">LINKEDIN</a>
           <a href="https://github.com/robi-paul" target="_blank" rel="noopener noreferrer">GITHUB</a>
-          <a href="https://orcid.org/0000-0002-7367-8432" target="_blank" rel="noopener noreferrer">ORCID</a>
-          {% if site.author.linkedin %}<a href="https://www.linkedin.com/in/{{ site.author.linkedin }}/" target="_blank" rel="noopener noreferrer">LINKEDIN</a>{% endif %}
           <a href="mailto:rp7248@rit.edu">EMAIL</a>
         </div>
       </div>
